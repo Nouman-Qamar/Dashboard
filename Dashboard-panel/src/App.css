@@ -1,38 +1,63 @@
-.App{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
+.header{
+ height: 70px;
+  padding: 0 24px;
+  background: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+  width: 100%;                      
+  box-sizing: border-box; 
+ 
 }
-.AppHeader{
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4px 20px 4px 12px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+.content{
+  margin: 24px 16px;
+  padding: 20px;
 }
-.AppFooter{
-height: 50px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+.sider{
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
 
 }
-.SideMenuAndPageContent{
-    display: flex;
-    flex: 1;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-color: rgba(0, 0, 0, 0.05) ;
+
+.trigger{
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
 }
-.SideMenu{
-    height: 100%;
+
+.logo{
+  color: #1a2c4c;
+  margin: 30px 0;
+  font-size: 1.5rem;
 }
-.SideMenuVertical{
-    height: 100%;
+
+.menu-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+  font-weight: 500;
 }
-.PageContent{
-    padding-left: 12px;
+
+.ant-menu-item-selected{
+  background-color: #1a2c4c !important;
+  color: #fff;
 }
+
+.header-icon{
+  background: #d2e3c8;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #1a2c4c !important;
+}
+
