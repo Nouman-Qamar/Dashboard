@@ -41,14 +41,14 @@ function Sidebar() {
         className="menu-bar"
         items={[
 
-          // Dashboard
+          
           {
             key: '1',
             icon: <MdDashboard />,
             label: 'Dashboard',
           },
 
-          // User Management
+          
           {
             key: '2',
             icon: <MdOutlineManageAccounts />,
@@ -63,7 +63,7 @@ function Sidebar() {
             ]
           },
 
-          // Project Management
+          
           {
             key: '3',
             icon: <AiOutlineProject />,
@@ -78,7 +78,7 @@ function Sidebar() {
             ]
           },
 
-          // Dispute Center
+         
           {
             key: '4',
             icon: <IoMdChatbubbles />,
@@ -90,7 +90,6 @@ function Sidebar() {
             ]
           },
 
-          // Payments & Finance
           {
             key: '5',
             icon: <MdOutlinePayments />,
@@ -104,7 +103,7 @@ function Sidebar() {
             ]
           },
 
-          // Analytics & Reports
+          
           {
             key: '6',
             icon: <BiAnalyse />,
@@ -117,7 +116,7 @@ function Sidebar() {
             ]
           },
 
-          // AI Cost Engine
+         
           {
             key: '7',
             icon: <IoMdConstruct />,
@@ -130,7 +129,7 @@ function Sidebar() {
             ]
           },
 
-          // Announcements & Policies
+         
           {
             key: '8',
             icon: <AiOutlineNotification />,
@@ -142,7 +141,7 @@ function Sidebar() {
             ]
           },
 
-          // System Settings
+          
           {
             key: '9',
             icon: <MdOutlineSettings />,
@@ -155,7 +154,7 @@ function Sidebar() {
             ]
           },
 
-          // Admin Profile
+         
           {
             key: '10',
             icon: <RiUserSettingsLine />,

@@ -7,7 +7,7 @@ import {MessageOutlined, NotificationOutlined} from "@ant-design/icons";
 function HeaderPage() {
   return (
     <Flex className="header" >
-      <Typography.Title level={2} type="secondary">Dashboard Header</Typography.Title>
+      <Typography.Title level={2} type="secondary">Dashboard </Typography.Title>
 
       <Flex align="center"  gap='3rem'>
         <Search placeholder="Search Here" allowClear />
